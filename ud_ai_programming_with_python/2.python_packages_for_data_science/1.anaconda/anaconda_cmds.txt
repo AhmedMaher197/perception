@@ -1,0 +1,68 @@
+# Commands to be executed with Anaconda
+
+1) -- To install package by using anaconda -- 
+conda install PACKAGE_NAME
+conda install numpy
+conda install numpy scipy pandas
+conda install numpy=1.10
+
+2) -- To Remove packages --
+conda remove PACKAGE_NAME
+
+3) -- To Update Package --
+conda update package_name
+conda update --all
+
+4) -- To List Package --
+conda list
+
+5) -- To Search for Packages --
+conda search *SEARCH_TERM*
+conda search *beautifulsoup*
+conda search '*beautifulsoup*'
+
+
+6) -- Create New Env for specific project --
+conda create -n env_name [python=X.X] [LIST_OF_PACKAGES]
+conda create -n my_env python=3.7 numpy Keras
+conda create -n py3_env python=3
+conda create -n py2_env python=2
+conda create -n py python=3.6
+
+7) -- Acitvate the enviroment --
+conda activate my_env
+
+8) -- Deactivate the enviroment --
+conda deactivate
+
+9) -- Export Enviroment --
+    a) Export from YAML File
+    conda env export
+    conda env export > environment.yaml
+
+    b) Create Enviroment from YAML
+    conda env create -f environment.yaml
+
+    c) list Envs
+    conda env list
+    conda info --envs
+
+    d) List Packages in Envs
+    # If the environment is not activated
+    conda list -n env_name
+
+    # If the environment is activated
+    conda list
+
+    # To see if a specific package is installed in an environment
+    conda list -n env_name scipy
+
+    e) Removing Environments:
+    conda env remove -n env_name
+
+10) pip requriemnt sharing
+# Generate requirements file
+pip freeze > requirements.txt
+
+# Install from requirements file
+pip install -r requirements.txt

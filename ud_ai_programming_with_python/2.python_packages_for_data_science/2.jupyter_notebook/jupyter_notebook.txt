@@ -1,0 +1,29 @@
+Jupyter NoteBook Markdown:
+
+1) Headers: Use # symbols
+
+# = Header 1 (largest)
+## = Header 2
+### = Header 3 (and so on)
+
+2) Links: [Display Text](URL)
+
+Example: [Udacity's home page](https://www.udacity.com)
+
+3) Text Emphasis:
+
+Italics: *text* or _text_
+Bold: **text** or __text__
+
+4) Code Display
+Inline code: Wrap in single backticks
+
+```
+import requests
+response = requests.get('https://www.udacity.com')
+```
+
+5) Math Expressions (LaTeX)
+$$
+y = \frac{a}{b+c}
+$$

@@ -1,0 +1,13 @@
+The following Lab:
+------------------
+
+>> plot_vectors function being created ir order to give us the capability to draw vectors
+
+>> np.linald.norm(matrix) to calculate norm of matrix
+
+>> Measure dot product performance function with the following
+    - dot function -- user
+    - dot function -- NumPy
+    - dot function -- using @ + NumPy
+
+>> Dot product of orthogonal vector is zero

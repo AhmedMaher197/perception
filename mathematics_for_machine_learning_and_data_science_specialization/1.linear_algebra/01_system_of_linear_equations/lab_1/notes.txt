@@ -1,0 +1,18 @@
+The following Lab:
+------------------
+
+>> How to create 0-dimensional array with NumPy which can be done by one of the following methods:
+    - np.array([1,2,4])
+    - np.arange([1,20,2])
+    - np.linespace([1,100,5])
+
+>> Type of array elements can be specified for one of the following methods by dtype.
+
+>> Operation such as (+ - / *) can be done on NumPy Array.
+
+>> NumPy Arrays Can be sliced
+    - Col slicing from 2 dimensional.
+
+>> We can stack 2 NumPy Arrays wether H or V stack
+
+>> NumPy arrays has special methods such as (ones, zeros, empty, rand)
